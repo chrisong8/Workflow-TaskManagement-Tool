@@ -1,0 +1,12 @@
+[
+  {"name":"Cindy", "status":"In Progress", "description":"Reviewing initial requirements, questions, documenting additional requirements, scope, etc.", "due":"10/10/2019", "project":"sample"},
+  {"name":"Stacy", "status":"Not Started", "description":"Parent Component for Design elements", "due":"12/2/2020", "project":"sample"},
+  {"name":"Helen", "status":"Completed", "description":"For working on various design concepts", "due":"2/1/2020", "project":"sample"},
+  {"name":"Amy", "status":"Completed", "description":"Tracking time spent on revisions to the final concepts", "due":"1/31/2021", "project":"sample"},
+  {"name":"Grant", "status":"In Progress", "description":"Parent for implementation tasks", "due":"8/16/2021", "project":"sample"},
+  {"name":"Iris", "status":"Completed", "description":"Setting up servers and configuration", "due":"1/31/2021", "project":"sample"},
+  {"name":"Brandon", "status":"Completed", "description":"Development efforts", "due":"1/31/2021", "project":"sample"},
+  {"name":"Terry", "status":"Not Started", "description":"Developer & End-user Testing", "due":"12/1/2021", "project":"simple"},
+  {"name":"Brandon", "status":"In Progress", "description":"Eat chips", "due":"10/05/2019", "project":"sample"},
+  {"name":"Brandon", "status":"Completed", "description":"Do nothing", "due":"10/05/2019", "project":"sample"}
+]

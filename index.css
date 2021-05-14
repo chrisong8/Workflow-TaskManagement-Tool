@@ -1,0 +1,293 @@
+body {
+    background-color: lemonchiffon;
+}
+.col {
+   padding: 2rem; 
+}
+nav img {
+    width: 32px;
+    height: 32px;
+}
+p, ul{
+    font-family: 'Comic Neue', sans-serif;
+    font-size: 1em;
+    margin: 1rem;
+}
+p:last-child{
+    margin-bottom: 2rem;
+}
+.bold {
+    font-weight: bold;
+    margin-top: 1.5em;
+}
+.eb img, .officers img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.member, .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.title {
+    background-color: plum;
+    color: white;
+    border-radius: 1em;
+}
+.hr {
+    background-color: yellowgreen;
+}
+.pr {
+    background-color: gold;
+}
+.mkt {
+    background-color: lightpink;
+}
+.fin {
+    background-color: skyblue;
+}
+li {
+    margin: 1em;
+}
+h1, h2, h3{
+    margin: 1rem;
+}
+h1 {
+    color: #4b2e83;
+    padding-top: 2.5rem;
+}
+h2 {
+    color: orchid;
+}
+h3 {
+    color: purple;
+}
+.profile-pic {
+    height: 10;
+    width: auto;
+}
+
+#accordion .card-header button {
+    color: orchid;
+    font-weight: bold;
+}
+
+footer {
+    font-size: small;
+}
+
+.project-button, .task-button {
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+.help-button {
+    background-color: transparent;
+}
+
+address {
+    padding: 1rem;
+}
+
+.mb-0 {
+    border-spacing: 1rem;
+}
+
+.navbar {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.table {
+    margin: 1rem;
+}
+
+.tr {
+    background-color: #b7a57a;
+}
+
+.card-body p{
+    font-weight: bold;
+}
+
+form[action=""] {
+    margin: 25px;
+}
+
+label[form="comment_field"] {
+    padding: 42px;
+}
+.card .project-description {
+    font-weight: lighter;
+}
+
+[list="task-status"] {
+    width: 90px;
+    display: inline-block;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+header{
+    margin-bottom: 3%;
+}
+
+input[type="date"]{
+    width: 75px;
+}
+.resultsTable {
+    margin: 25px;
+    width: 100%;
+}
+form p {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: xx-large;
+    color: green;
+    opacity:1;
+    /* transition:opacity 500ms; */
+    margin: 14px;
+    text-align: center;
+}
+
+@media (min-width: 600px){
+    input[type="date"]{
+        width: 160px;
+    }
+}
+
+@media (min-width: 598px) {
+    h1 {
+        font-weight: bolder;
+    }
+    h2 {
+        padding-bottom: 0.2rem;
+    }
+    .navbar { 
+        height: 70px;
+        
+    }
+    nav img {
+        width: 30px;
+        height: 30px;
+    }
+    main {
+        padding: 0rem;
+        margin: 0.25rem;
+    }
+    .col-4 {
+        height: 2rem;
+    }
+    footer {
+        font-size: x-small;
+        border-spacing: 1rem;
+        padding: 0rem;
+        padding-top: 0.5rem;    }
+    header {
+        background-color: whitesmoke;
+        border-radius: 124px;
+        margin-top: 80px;
+    }
+    table th {
+        text-decoration: underline;
+    }
+    .resultsTable {
+        margin: 12px;
+        width: 100%;
+    }
+    header button {
+        width: 9rem;
+    }
+    form p {
+        font-size: medium;
+    }
+    #top {
+        text-align: right;
+    }
+}
+
+@media (min-width: 768px) {
+    header {
+        padding-bottom: 0rem;
+        padding: 0.15rem;
+        border-radius: 177px;
+    }
+    h1 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: 50px;
+    }
+    h2 {
+        padding-bottom: 1rem;
+    }
+    table {
+        padding: 1rem;
+    }
+    header button {
+        width: 12rem;
+    }
+    footer {
+        margin: 1rem;
+        position: fixed;
+        width: 100%;
+    }
+    nav img {
+        float: center;
+        width: 40px;
+        height: 40px;
+    }
+    nav button {
+        float: right;
+    }
+    #addButton {
+        width: 50px;
+    }
+    form p {
+        font-size: large;
+    }
+    #top {
+        text-align: right;
+    }
+}
+
+@media (min-width: 992px) {
+    header {
+        padding: 0.15rem;
+        border-radius: 75px;
+    }
+    h1 {
+        padding-top: 2.5rem;
+    }
+    h2 {
+        padding-bottom: 2.5rem;
+    }
+    table {
+        padding: 1rem;
+    }
+    header button {
+        width: 12rem;
+        height: 4rem;
+    }
+    footer {
+        margin: 1rem;
+        position: absolute;
+        width: 100%;
+    }
+    nav img {
+        float: left;
+        width: 40px;
+        height: 40px;
+    }
+    table tr .categ {
+        font-size: 24px;
+    }
+    form p {
+        font-size: x-large;
+    }
+    #top {
+        text-align: right;
+    }
+}
